@@ -20,3 +20,6 @@ test("Dwain-Branden Simmons"); //true
 test("И Иван Иванович"); //true
 test("Салим-оглы Мамед"); //true
 test("Салим-кызы Лейла"); //true
+
+Для латиницы, кириллицы и спецсимволов:
+const regex = new RegExp('^[A-Za-zА-Яа-яЁё0-9 ",-;!%:#№/$]+$');
